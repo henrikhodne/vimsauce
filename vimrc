@@ -2,6 +2,9 @@ set nocompatible
 filetype plugin on
 
 " {{ appearance
+set visualbell
+set t_vb=
+
 syntax on
 
 hi clear SpellBad
