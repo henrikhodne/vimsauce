@@ -1,5 +1,6 @@
 set nocompatible
 filetype plugin on
+let &shm = 'I'
 
 " {{ appearance
 set visualbell
