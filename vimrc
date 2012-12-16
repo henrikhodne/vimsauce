@@ -27,6 +27,8 @@ let g:indent = 4
 let &tabstop = indent
 let &softtabstop = indent
 let &shiftwidth = indent
+set autoindent
+set smartindent
 set expandtab
 
 let g:jsbeautify = {'indent_size': indent, 'indent_char': ' ', 'max_char': 78, 'brace_style': 'end-expand'}
