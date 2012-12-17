@@ -23,7 +23,7 @@ let g:solarized_visibility = "high"
 
 " {{ formatting
 " default indentation settings
-let g:indent = 4
+let g:indent = 2
 let &tabstop = indent
 let &softtabstop = indent
 let &shiftwidth = indent
