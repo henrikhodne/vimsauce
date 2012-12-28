@@ -1,6 +1,7 @@
 set nocompatible
 filetype plugin on
 let &shm = 'I'
+let &encoding = 'utf-8'
 
 " {{ appearance
 set visualbell
