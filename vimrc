@@ -39,6 +39,7 @@ autocmd BufReadPost * :GuessIndent
 
 " for specific filetypes
 au BufNewFile,BufRead *.md setf markdown 
+au BufNewFile,BufRead *.cs setf coffee
 au BufNewFile,BufRead *.escad,*.scad setf javascript
 au BufNewFile,BufRead *.pde,*.ino setf cpp
 
