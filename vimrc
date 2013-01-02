@@ -38,6 +38,7 @@ let g:jsbeautify = {'indent_size': indent, 'indent_char': ' ', 'max_char': 78, '
 autocmd BufReadPost * :GuessIndent
 
 " for specific filetypes
+au BufNewFile,BufRead *.md setf markdown 
 au BufNewFile,BufRead *.escad,*.scad setf javascript
 au BufNewFile,BufRead *.pde,*.ino setf cpp
 
