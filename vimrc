@@ -48,6 +48,9 @@ autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType html let b:closetag_html_style = 1
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
+"for autocompiling
+autocmd FileType rust autocmd BufWritePost <buffer> silent make %:r|redraw!|cc
 " }}
 
 " various loose settings
