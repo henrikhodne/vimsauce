@@ -45,13 +45,13 @@ au BufNewFile,BufRead *.cs setf coffee
 au BufNewFile,BufRead *.escad,*.scad setf javascript
 au BufNewFile,BufRead *.pde,*.ino setf cpp
 
-"for autoformatting
+" for autoformatting
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType html let b:closetag_html_style = 1
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 
-"for autocompiling
+" for autocompiling
 autocmd FileType rust autocmd BufWritePost <buffer> silent make %:r|redraw!|cc
 " }}
 
@@ -60,7 +60,7 @@ let g:gist_detect_filetype = 1
 let g:SuperTabDefaultCompletionType = "context"
 let g:session_autosave = 'yes'
 
-"load plugins
+" load plugins
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
