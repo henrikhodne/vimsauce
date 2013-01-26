@@ -3,6 +3,11 @@ filetype plugin on
 let &shm = 'I'
 let &encoding = 'utf-8'
 
+" {{ keyboard behaviour
+inoremap kj <esc>
+inoremap <esc> <nop>
+" }}
+
 " {{ appearance
 set visualbell
 set t_vb=
