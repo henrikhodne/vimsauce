@@ -5,7 +5,6 @@ let &encoding = 'utf-8'
 
 " {{ keyboard behaviour
 inoremap kj <esc>
-inoremap <esc> <nop>
 " }}
 
 " {{ appearance
