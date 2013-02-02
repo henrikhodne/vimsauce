@@ -5,6 +5,7 @@ let &encoding = 'utf-8'
 
 " {{ keyboard behaviour
 inoremap kj <esc>
+map <C-n> :NERDTreeToggle<CR>
 " }}
 
 " {{ appearance
