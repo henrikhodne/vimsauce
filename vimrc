@@ -7,6 +7,7 @@ set hidden
 " {{ keyboard behaviour
 inoremap kj <esc>
 map <C-n> :NERDTreeToggle<CR>
+map <C-b> :BuffergatorToggle<CR>
 " }}
 
 " {{ appearance
