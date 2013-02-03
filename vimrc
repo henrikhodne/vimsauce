@@ -2,7 +2,7 @@ set nocompatible
 filetype plugin on
 let &shm = 'I'
 let &encoding = 'utf-8'
-set hidden 
+set hidden
 
 " {{ keyboard behaviour
 inoremap kj <esc>
@@ -46,7 +46,7 @@ let g:jsbeautify = {'indent_size': indent, 'indent_char': ' ', 'max_char': 78, '
 autocmd BufReadPost * :GuessIndent
 
 " for specific filetypes
-au BufNewFile,BufRead *.md setf markdown 
+au BufNewFile,BufRead *.md setf markdown
 au BufNewFile,BufRead *.cs setf coffee
 au BufNewFile,BufRead *.escad,*.scad setf javascript
 au BufNewFile,BufRead *.pde,*.ino setf cpp
