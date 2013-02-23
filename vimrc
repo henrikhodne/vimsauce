@@ -22,11 +22,7 @@ hi SpellBad cterm=bold ctermbg=darkred ctermfg=white
 let g:Powerline_symbols = 'fancy'
 let &laststatus = 2
 
-let &background = 'dark'
-let g:solarized_termtrans = 1
-let g:solarized_termcolors = 256
-let g:solarized_contrast = "high"
-let g:solarized_visibility = "high"
+source ~/.configs/theme/vimrc
 
 let g:no_rust_conceal = 1
 " }}
