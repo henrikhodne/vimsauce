@@ -10,6 +10,11 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-b> :BuffergatorToggle<CR>
 " }}
 
+" {{ split behaviour
+set splitbelow
+set splitright
+" }}
+
 " {{ appearance
 set visualbell
 set t_vb=
