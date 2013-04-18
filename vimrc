@@ -22,7 +22,7 @@ hi SpellBad cterm=bold ctermbg=darkred ctermfg=white
 let g:Powerline_symbols = 'fancy'
 let &laststatus = 2
 
-source ~/.configs/theme/vimrc
+source ~/.configs/theme/vimrc.pre
 
 let g:no_rust_conceal = 1
 " }}
@@ -73,4 +73,4 @@ call pathogen#helptags()
 call pathogen#infect()
 
 " activate theme
-colorscheme solarized
+source ~/.configs/theme/vimrc.post
