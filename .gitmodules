@@ -79,6 +79,3 @@
 [submodule "bundle/coco"]
 	path = bundle/coco
 	url = https://github.com/satyr/vim-coco.git
-[submodule "bundle/multi-cursor"]
-	path = bundle/multi-cursor
-	url = https://github.com/terryma/vim-multiple-cursors.git
