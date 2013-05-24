@@ -1,5 +1,2 @@
-function! Sprunge()
-    w !curl -F 'sprunge=<-' sprunge.us
-endfunction
-command! Sprunge call Sprunge()
-
+command -range=% Sprunge <line1>,<line2>w !curl -F 'sprunge=<-' sprunge.us
+abc
